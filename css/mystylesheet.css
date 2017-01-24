@@ -1,0 +1,67 @@
+body {
+  font-family: 'Josefin Slab', cursive; 
+  padding-top: 70px;
+}
+.navbar.navbar-default.navbar-fixed-top{
+  width:1302px; 
+  margin:auto; 
+  background: white ;
+  font-family: 'Josefin Slab', cursive; 
+  border: none;
+
+}
+.navbar-default .navbar-brand.mybrand{
+  color:black;
+  font-size: 44px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Page{
+    height:688px;
+    background-color: white;
+}
+.secondchild{
+    height:472px;
+    background-repeat: no-repeat;
+}
+.moto{
+  margin-top: 22px;
+  text-align: center;
+}
+.container-fluid {
+  margin-top: 9px;
+}
+#image-container{
+    background-image: url("../0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    width: 1050px;
+    height: 340px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+.social-buttons{
+    margin-top: -2px;
+    margin-bottom: 6px;
+    width: 169px;
+    height: 32px;
+}
+.applelogo img{
+  width:42px;
+  height:46px;
+  display:block;
+    margin:auto;
+}
+.googleplaylogo img{
+  width:42px;
+  height:46px;
+  display:block;
+    margin:auto;
+}
